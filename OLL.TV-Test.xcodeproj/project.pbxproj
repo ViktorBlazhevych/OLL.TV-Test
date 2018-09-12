@@ -182,8 +182,8 @@
 				TargetAttributes = {
 					77D133231E7E79D70022BBA3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = EY3J95MP6Q;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = AL58Y6E7W8;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -351,12 +351,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EY3J95MP6Q;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AL58Y6E7W8;
 				INFOPLIST_FILE = "OLL.TV-Test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.viktor.OLL-TV-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10d5d8aa-bf9f-4a7d-9aa5-bb31f17dab21";
+				PROVISIONING_PROFILE_SPECIFIER = "App3Null Wildcard Development";
 			};
 			name = Debug;
 		};
@@ -364,12 +367,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EY3J95MP6Q;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OLL.TV-Test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.viktor.OLL-TV-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
